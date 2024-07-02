@@ -3,10 +3,10 @@ import Header from "./Components/Header/header";
 
 function App() {
   return (
-    <div className="">
+    <>
       <Header></Header>
       <Banner></Banner>
-    </div>
+    </>
   );
 }
 
