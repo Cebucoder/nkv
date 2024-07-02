@@ -1,14 +1,15 @@
 {
-  "homepage": "https://{Cebucoder}.github.io/{nkv}",
   "name": "nkv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://{Cebucoder}.github.io/{nkv}",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.0",
     "react-scripts": "5.0.1",
     "swiper": "^11.1.4",
     "web-vitals": "^2.1.4"
@@ -16,10 +17,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
